@@ -1,0 +1,905 @@
+91003
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.187.144:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44737 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x9366d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 91003)
+spawned uWSGI worker 1 (pid: 91004, cores: 2)
+spawned uWSGI worker 2 (pid: 91005, cores: 2)
+spawned uWSGI worker 3 (pid: 91006, cores: 2)
+spawned uWSGI worker 4 (pid: 91007, cores: 2)
+spawned uWSGI http 1 (pid: 91008)
+--- no python application found, check your startup logs for errors ---
+[pid: 91007|app: -1|req: -1/1] 192.168.187.1 () {40 vars in 784 bytes} [Wed May  8 21:37:02 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 91006|app: -1|req: -1/2] 192.168.187.1 () {40 vars in 784 bytes} [Wed May  8 21:37:04 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed May  8 21:39:22 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.187.144:8080).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 91004|app: -1|req: -1/3] 192.168.187.1 () {40 vars in 784 bytes} [Wed May  8 21:39:35 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 91006|app: -1|req: -1/4] 192.168.187.1 () {40 vars in 784 bytes} [Wed May  8 21:39:36 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 91004|app: -1|req: -1/5] 192.168.187.1 () {38 vars in 743 bytes} [Wed May  8 21:39:42 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Wed May  8 21:44:22 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  8 21:44:22 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  8 21:44:22 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  8 21:44:22 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  8 21:44:22 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  8 21:44:22 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  8 21:44:22 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  8 21:44:22 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Wed May  8 21:44:52 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.187.144:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34443 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x1ae16d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 91091)
+spawned uWSGI worker 1 (pid: 91092, cores: 2)
+spawned uWSGI worker 2 (pid: 91093, cores: 2)
+spawned uWSGI worker 3 (pid: 91094, cores: 2)
+spawned uWSGI worker 4 (pid: 91095, cores: 2)
+spawned uWSGI http 1 (pid: 91096)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 91096)
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Wed May  8 22:13:46 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.187.144:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0xbde5d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 91371)
+spawned uWSGI worker 1 (pid: 91372, cores: 2)
+spawned uWSGI worker 2 (pid: 91373, cores: 2)
+spawned uWSGI worker 3 (pid: 91374, cores: 2)
+spawned uWSGI worker 4 (pid: 91375, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Wed May  8 22:35:58 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.187.144:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x10625a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 91643)
+spawned uWSGI worker 1 (pid: 91644, cores: 2)
+spawned uWSGI worker 2 (pid: 91645, cores: 2)
+spawned uWSGI worker 3 (pid: 91646, cores: 2)
+spawned uWSGI worker 4 (pid: 91647, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 09:45:26 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.187.144:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x19105a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 92727)
+spawned uWSGI worker 1 (pid: 92728, cores: 2)
+spawned uWSGI worker 2 (pid: 92729, cores: 2)
+spawned uWSGI worker 3 (pid: 92730, cores: 2)
+spawned uWSGI worker 4 (pid: 92731, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 09:49:48 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.187.144:8000 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x1fde5a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 93291)
+spawned uWSGI worker 1 (pid: 93292, cores: 2)
+spawned uWSGI worker 2 (pid: 93293, cores: 2)
+spawned uWSGI worker 3 (pid: 93294, cores: 2)
+spawned uWSGI worker 4 (pid: 93295, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 09:50:31 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x17f6000
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 09:57:16 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.187.144:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45049 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x1a646a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 93375)
+spawned uWSGI worker 1 (pid: 93376, cores: 2)
+spawned uWSGI worker 2 (pid: 93377, cores: 2)
+spawned uWSGI worker 3 (pid: 93378, cores: 2)
+spawned uWSGI worker 4 (pid: 93379, cores: 2)
+spawned uWSGI http 1 (pid: 93380)
+--- no python application found, check your startup logs for errors ---
+[pid: 93377|app: -1|req: -1/1] 192.168.187.1 () {40 vars in 816 bytes} [Thu May  9 09:57:43 2019] GET /admin/goods/goodssku/ => generated 21 bytes in 8 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93376|app: -1|req: -1/2] 192.168.187.1 () {38 vars in 749 bytes} [Thu May  9 09:57:43 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93379|app: -1|req: -1/3] 192.168.187.1 () {38 vars in 755 bytes} [Thu May  9 09:57:50 2019] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93377|app: -1|req: -1/4] 192.168.187.1 () {38 vars in 734 bytes} [Thu May  9 09:57:50 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 93376|app: -1|req: -1/5] 192.168.187.1 () {40 vars in 786 bytes} [Thu May  9 09:57:52 2019] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93376|app: -1|req: -1/6] 192.168.187.1 () {42 vars in 787 bytes} [Thu May  9 09:57:52 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93376|app: -1|req: -1/7] 192.168.187.1 () {40 vars in 786 bytes} [Thu May  9 09:57:53 2019] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93376|app: -1|req: -1/8] 192.168.187.1 () {42 vars in 787 bytes} [Thu May  9 09:57:53 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Thu May  9 09:58:19 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 09:58:19 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 09:58:27 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.187.144:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43430 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x12236a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 93402)
+spawned uWSGI worker 1 (pid: 93403, cores: 2)
+spawned uWSGI worker 2 (pid: 93404, cores: 2)
+spawned uWSGI worker 3 (pid: 93405, cores: 2)
+spawned uWSGI worker 4 (pid: 93406, cores: 2)
+spawned uWSGI http 1 (pid: 93407)
+--- no python application found, check your startup logs for errors ---
+[pid: 93404|app: -1|req: -1/1] 192.168.187.1 () {38 vars in 748 bytes} [Thu May  9 09:59:13 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93404|app: -1|req: -1/2] 192.168.187.1 () {38 vars in 742 bytes} [Thu May  9 09:59:19 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93404|app: -1|req: -1/3] 192.168.187.1 () {38 vars in 727 bytes} [Thu May  9 09:59:19 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93404|app: -1|req: -1/4] 192.168.187.1 () {38 vars in 758 bytes} [Thu May  9 10:01:31 2019] GET /goods/12 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93406|app: -1|req: -1/5] 192.168.187.1 () {38 vars in 735 bytes} [Thu May  9 10:01:31 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Thu May  9 10:06:38 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:06:38 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 10:06:44 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.187.144:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40024 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x10ab6a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 93476)
+spawned uWSGI worker 1 (pid: 93477, cores: 2)
+spawned uWSGI worker 2 (pid: 93478, cores: 2)
+spawned uWSGI worker 3 (pid: 93479, cores: 2)
+spawned uWSGI worker 4 (pid: 93480, cores: 2)
+spawned uWSGI http 1 (pid: 93481)
+--- no python application found, check your startup logs for errors ---
+[pid: 93478|app: -1|req: -1/1] 192.168.187.1 () {38 vars in 759 bytes} [Thu May  9 10:07:00 2019] GET /goods/12 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93480|app: -1|req: -1/2] 192.168.187.1 () {38 vars in 736 bytes} [Thu May  9 10:07:00 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Thu May  9 10:08:19 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 10:08:26 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.187.144:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43614 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x16d26a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file df_test.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 93503)
+spawned uWSGI worker 1 (pid: 93504, cores: 2)
+spawned uWSGI worker 2 (pid: 93505, cores: 2)
+spawned uWSGI worker 3 (pid: 93506, cores: 2)
+spawned uWSGI worker 4 (pid: 93507, cores: 2)
+spawned uWSGI http 1 (pid: 93508)
+--- no python application found, check your startup logs for errors ---
+[pid: 93507|app: -1|req: -1/1] 192.168.187.1 () {40 vars in 789 bytes} [Thu May  9 10:08:36 2019] GET /goods/12 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93506|app: -1|req: -1/2] 192.168.187.1 () {42 vars in 788 bytes} [Thu May  9 10:08:36 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93507|app: -1|req: -1/3] 192.168.187.1 () {40 vars in 789 bytes} [Thu May  9 10:08:37 2019] GET /goods/12 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93507|app: -1|req: -1/4] 192.168.187.1 () {42 vars in 788 bytes} [Thu May  9 10:08:37 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93505|app: -1|req: -1/5] 192.168.187.1 () {38 vars in 742 bytes} [Thu May  9 10:08:40 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93506|app: -1|req: -1/6] 192.168.187.1 () {38 vars in 727 bytes} [Thu May  9 10:08:40 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93506|app: -1|req: -1/7] 192.168.187.1 () {38 vars in 752 bytes} [Thu May  9 10:08:46 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 93504|app: -1|req: -1/8] 192.168.187.1 () {38 vars in 732 bytes} [Thu May  9 10:08:46 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Thu May  9 10:11:05 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:11:05 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 10:11:12 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.187.144:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41921 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x1e2f6e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e2f6e0 pid: 93540 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 93540)
+spawned uWSGI worker 1 (pid: 93542, cores: 2)
+spawned uWSGI worker 2 (pid: 93543, cores: 2)
+spawned uWSGI worker 3 (pid: 93544, cores: 2)
+spawned uWSGI worker 4 (pid: 93545, cores: 2)
+spawned uWSGI http 1 (pid: 93546)
+没有缓存数据
+[pid: 93542|app: 0|req: 1/1] 192.168.187.1 () {40 vars in 783 bytes} [Thu May  9 10:11:17 2019] GET /index => generated 9581 bytes in 884 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 93542|app: 0|req: 2/2] 192.168.187.1 () {38 vars in 729 bytes} [Thu May  9 10:11:18 2019] GET /static/css/reset.css => generated 94 bytes in 21 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 93545|app: 0|req: 2/3] 192.168.187.1 () {38 vars in 726 bytes} [Thu May  9 10:11:18 2019] GET /static/js/jquery-ui.min.js => generated 100 bytes in 1263 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 93545|app: 0|req: 2/4] 192.168.187.1 () {38 vars in 734 bytes} [Thu May  9 10:11:18 2019] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 1263 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 93544|app: 0|req: 2/5] 192.168.187.1 () {38 vars in 710 bytes} [Thu May  9 10:11:18 2019] GET /static/js/slide.js => generated 92 bytes in 1266 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 93544|app: 0|req: 2/6] 192.168.187.1 () {38 vars in 727 bytes} [Thu May  9 10:11:18 2019] GET /static/css/main.css => generated 93 bytes in 1271 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 93543|app: 0|req: 1/7] 192.168.187.1 () {38 vars in 754 bytes} [Thu May  9 10:11:18 2019] GET /static/images/logo.png => generated 96 bytes in 1269 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 93543|app: 0|req: 2/8] 192.168.187.1 () {38 vars in 726 bytes} [Thu May  9 10:11:19 2019] GET /static/js/jquery-ui.min.js => generated 100 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 93542|app: 0|req: 3/9] 192.168.187.1 () {38 vars in 710 bytes} [Thu May  9 10:11:19 2019] GET /static/js/slide.js => generated 92 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 93545|app: 0|req: 3/10] 192.168.187.1 () {38 vars in 710 bytes} [Thu May  9 10:11:19 2019] GET /static/js/slide.js => generated 92 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 93544|app: 0|req: 3/11] 192.168.187.1 () {42 vars in 785 bytes} [Thu May  9 10:11:19 2019] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+Thu May  9 10:11:48 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:11:48 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:11:48 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:11:48 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:11:48 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:11:48 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 10:11:59 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.187.144:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42935 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0xdc06e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xdc06e0 pid: 93664 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 93664)
+spawned uWSGI worker 1 (pid: 93666, cores: 2)
+spawned uWSGI worker 2 (pid: 93667, cores: 2)
+spawned uWSGI worker 3 (pid: 93668, cores: 2)
+spawned uWSGI worker 4 (pid: 93669, cores: 2)
+spawned uWSGI http 1 (pid: 93670)
+[pid: 93666|app: 0|req: 1/1] 192.168.187.1 () {40 vars in 777 bytes} [Thu May  9 10:12:08 2019] GET /index => generated 9581 bytes in 644 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 93666|app: 0|req: 2/2] 192.168.187.1 () {38 vars in 733 bytes} [Thu May  9 10:12:09 2019] GET /favicon.ico => generated 85 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 93666|app: 0|req: 3/3] 192.168.187.1 () {40 vars in 784 bytes} [Thu May  9 10:15:02 2019] GET /index => generated 9581 bytes in 552 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 93667|app: 0|req: 1/4] 192.168.187.1 () {38 vars in 757 bytes} [Thu May  9 10:15:36 2019] GET /goods/3 => generated 7203 bytes in 1786 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 93666|app: 0|req: 4/5] 192.168.187.1 () {40 vars in 774 bytes} [Thu May  9 10:15:38 2019] GET /static/js/add_cart.js => generated 95 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+Thu May  9 10:23:07 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:23:07 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:23:07 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:23:07 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:23:07 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:23:07 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:23:07 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 10:23:07 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 10:23:16 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.187.144:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x144a5e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x144a5e0 pid: 93807 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 93807)
+spawned uWSGI worker 1 (pid: 93809, cores: 2)
+spawned uWSGI worker 2 (pid: 93810, cores: 2)
+spawned uWSGI worker 3 (pid: 93811, cores: 2)
+spawned uWSGI worker 4 (pid: 93812, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Thu May  9 11:10:16 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:10:16 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:10:16 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:10:16 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:10:16 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:10:16 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:10:16 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:10:16 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 11:10:22 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.187.144:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 11:10:40 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.187.144:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 11:11:40 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.187.144:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 11:12:31 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.187.144:8001 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x25685e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x25685e0 pid: 94111 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 94111)
+spawned uWSGI worker 1 (pid: 94113, cores: 2)
+spawned uWSGI worker 2 (pid: 94114, cores: 2)
+spawned uWSGI worker 3 (pid: 94115, cores: 2)
+spawned uWSGI worker 4 (pid: 94116, cores: 2)
+Thu May  9 11:14:32 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:14:32 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  9 11:14:32 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Thu May  9 11:14:39 2019] ***
+compiled with version: 5.4.0 20160609 on 08 May 2019 13:14:49
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/yaya/df_test
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/yaya_py3/bin/uwsgi
+chdir() to /home/python/yaya/df_test
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.187.144:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/yaya_py3
+Python main interpreter initialized at 0x136f5e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x136f5e0 pid: 94146 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 94146)
+spawned uWSGI worker 1 (pid: 94148, cores: 2)
+spawned uWSGI worker 2 (pid: 94149, cores: 2)
+spawned uWSGI worker 3 (pid: 94150, cores: 2)
+spawned uWSGI worker 4 (pid: 94151, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
